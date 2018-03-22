@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="base_info">
+    <text class="base_title">{{baseTitle}}</text>
+    <text class="base_introduction">{{baseIntroduction}}</text>
+  </view>
+  <view class="soochow">
+    <!-- <image class="soochow_title" src="{{soochowImg}}" mode="widthFix"></image> -->
+  </view>
+
+  <view class="suda">
+    <view class="suda_fmale" wx:for="{{sudaFamle}}">
+      <view class='famle'>
+        <image class='famle_image' src='{{item.image}}' mode='widthFix'></image>
+        <text class='fmale_info'>{{item.info}}</text>
+      </view>
+      <view class='famle_icon'>
+        <image class='thumb_icon' src='{{iconImage}}' mode='widthFix' bindtap='thumbUpEvent'></image>
+        <image class='flower_icon' src='{{iconImage}}' mode='widthFix'></image>
+        <image class='contact_icon' src='{{iconImage}}' mode='widthFix'></image>
+      </view>
+      <view class='famle_text'>
+        <text class='thumb_text'>{{iconText}}</text>
+        <text class='flower_text'>{{iconText}}</text>
+        <text class='contact_text'>{{iconText}}</text>
+      </view>
+    </view>
+  </view>
+  
+
+</view>

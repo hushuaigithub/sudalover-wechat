@@ -1,0 +1,78 @@
+/**index.wxss**/
+.base_info {
+  padding: 5rpx 20rpx 0 0;
+  display: flex;
+  flex-direction: column
+}
+
+.base_title {
+  text-align: center;
+  font: medium;
+  font-size: 17pt;
+  color: #353535;
+  padding-bottom: 0.5rem 
+}
+
+.base_introduction {
+  text-align: center;
+  font: regular;
+  font-size: 8pt;
+  color: #353535;
+  border-style: solid;
+  border-color: #353535;
+  border-width: 3rpx;
+  padding: 10rpx 20rpx;
+  margin: 10rpx 10rpx 20rpx 30rpx
+}
+
+.soochow_title {
+  width: 730rpx,
+}
+
+.suda {
+  display: flex;
+  flex-direction: column
+}
+
+.suda_famle {
+  display: flex;
+  flex-direction: column
+}
+
+.famle {
+  display: flex;
+  flex-direction: column
+}
+
+.famle_image {
+  align-self: center;
+  width: 296px;
+  height: 200px
+}
+
+.fmale_info {
+  margin: 10rpx 10rpx 0rpx 22rpx
+}
+
+.famle_icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+} 
+
+.thumb_icon, .flower_icon, .contact_icon{
+  width: 40px;
+  height: 40px
+}
+
+.famle_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.thumb_text, .flower_text, .contact_text {
+  font: medium;
+  font-size: 10pt;
+  margin: 1rpx 10rpx 20rpx 1rpx
+}
